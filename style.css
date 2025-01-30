@@ -1,7 +1,24 @@
 .container {
-    background-image: url('vote2.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 700px;
-    position: relative;
+    display: flex;
+    justify-content: space-between; /* Ensures text left and image right */
+    align-items: center; /* Aligns text and image vertically */
+    flex-wrap: wrap; /* Ensures it remains responsive */
+    gap: 30px; /* Adds space between text and image */
+}
+
+.content {
+    flex: 1; /* Allows text to take more space */
+    text-align: left;
+}
+
+.image-container {
+    flex: 0.5; /* Makes image take up the right portion */
+    max-width: 350px; /* Increases image size */
+}
+
+.image-container img {
+    width: 100%; /* Ensures the image fills its container */
+    height: auto;
+    display: block;
+    border-radius: 10px; /* Optional: adds rounded corners */
 }
