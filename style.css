@@ -1,0 +1,7 @@
+.container {
+    background-image: url('vote2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    position: relative;
+}
