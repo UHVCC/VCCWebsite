@@ -22,3 +22,29 @@
     display: block;
     border-radius: 10px; /* Optional: adds rounded corners */
 }
+.sidenav {
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f8f9fa;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 10px 15px;
+    text-decoration: underline;
+    font-size: 18px;
+    color: blue;
+    display: block;
+}
+
+.sidenav a:hover {
+    background-color: #ddd;
+}
+
+.main-content {
+    margin-left: 260px;
+    padding: 20px;
+}
