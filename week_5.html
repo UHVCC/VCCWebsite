@@ -12,7 +12,7 @@
 <body>
 <nav id="topMenu" class="navbar navbar-light bg-danger">
   <div class="container-fluid d-flex justify-content-center align-items-center">
-    <a href="index.html">
+    <a href="index.html" style="text-decoration: none;">
       <img src="vote1.jpg" alt="Vote" width="100" height="67" class="me-3">
       <h1 class="text-white m-0">Voter Campaign Contribution</h1>
     </a>
@@ -33,7 +33,9 @@
   <div class="content flex-grow-1 align-items-start w-100">
     <p>We abstracted the retrieval of data from the OpenData Hawaii data sets,
       and created another class to do the repetitive logic of loading the data
-      into the database using prepared statements.</p>
+      into the database using prepared statements. Recognizing that some tables
+      are loaded from the same dataset, we refactored the code to allow sideloading
+      another table as one data set is being processed.</p>
   </div>
 </div>
 <div class="container mt-4 d-flex align-items-center w-100">
